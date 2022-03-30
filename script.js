@@ -25,8 +25,6 @@ let currentIndex = 0;
 const slideArray = document.getElementsByClassName("slide");
 const up = document.getElementById("up");
 const down = document.getElementById("down");
-console.log(currentIndex)
-console.log(slideArray[0])
 up.addEventListener("click", function () {
     if (currentIndex == 0) {
         slideArray[currentIndex].classList.remove("active");
